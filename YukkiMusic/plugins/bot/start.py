@@ -117,6 +117,20 @@ async def start_comm(client, message: Message, _):
                     config.LOG_GROUP_ID,
                     f"{message.from_user.mention} has just started bot to check <code>SUDOLIST</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
                 )
+        if message.from_user.id in START_COMMAND:
+       await message.reply_text(
+                "اهلا عزيزي المطور\nاليك لوحة التحكم الخاصة بالبوت",
+                reply_markup=ReplyKeyboardMarkup(
+                    [
+                        ["الاحصائيات"],
+                        ["اختبار الحساب المساعد","مغادرة الحساب المساعد من المجموعات"],
+                        ["معلومات السيرفر ","بينج السيرفر","قياس سرعة السيرفر"],
+                        ["مدة التشغيل","اعادة تشغيل البوت"],
+                        ["طريقة الاذاعة","الغاء التوقف"],
+                    ],
+                    resize_keyboard=True
+                )
+            )
             return
         if name[0:3] == "lyr":
             query = (str(name)).replace("lyrics_", "", 1)
