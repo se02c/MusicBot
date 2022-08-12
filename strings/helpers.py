@@ -54,23 +54,23 @@ HELP_3 = """✅<u>**اوامر البوت:**</u>
       ♡•━• 𝗦𝗢𝗨𝗥𝗖𝗘 𝗭𝗘𝗥𝗢 •━•♡"""
 
 HELP_4 = """✅<u>**Extra  Commands:**</u>
-/start - Start the Music Bot.
-/help  - Get Commands Helper Menu with detailed explanations of commands.
-/ping- Ping the Bot and check Ram, Cpu etc stats of Bot.
-✅<u>**Group Settings:**</u>
-/settings - Get a complete group's settings with inline buttons
-🔗 **Options in Settings:**
-1️⃣ You can set **Audio Quality** you want to stream on voice chat.
-2️⃣ You can set **Video Quality** you want to stream on voice chat.
-3️⃣ **Auth Users**:- You can change admin commands mode from here to everyone or admins only. If everyone, anyone present in you group will be able to use admin commands(like /skip, /stop etc)
-4️⃣ **Clean Mode:** When enabled deletes the bot's messages after 5 mins from your group to make sure your chat remains clean and good.
-5️⃣ **Command Clean** : When activated, Bot will delete its executed commands (/play, /pause, /shuffle, /stop etc) immediately.
-6️⃣ **Play Settings:**
-/playmode - Get a complete play settings panel with buttons where you can set your group's play settings. 
-<u>Options in playmode:</u>
-1️⃣ **Search Mode** [Direct or Inline] - Changes your search mode while you give /play mode. 
-2️⃣ **Admin Commands** [Everyone or Admins] - If everyone, anyone present in you group will be able to use admin commands(like /skip, /stop etc)
-3️⃣ **Play Type** [Everyone or Admins] - If admins, only admins present in group can play music on voice chat."""
+/ابدأ - ابدأ Music Bot.
+/ مساعدة - الحصول على قائمة مساعد الأوامر مع شرح مفصل للأوامر.
+/ ping- Ping the Bot وتحقق من إحصائيات ذاكرة الوصول العشوائي ووحدة المعالجة المركزية وما إلى ذلك الخاصة بالبوت.
+✅ <u> ** إعدادات المجموعة: ** </u>
+/ الإعدادات - احصل على إعدادات المجموعة الكاملة باستخدام الأزرار المضمنة
+🔗 ** الخيارات في الإعدادات: **
+1️⃣ يمكنك ضبط ** جودة الصوت ** التي تريد بثها على الدردشة الصوتية.
+2️⃣ يمكنك ضبط ** جودة الفيديو ** التي تريد بثها على الدردشة الصوتية.
+3️⃣ ** المستخدمون المصدقون **: - يمكنك تغيير وضع أوامر المسؤول من هنا للجميع أو للمسؤولين فقط. إذا كان الجميع ، أي شخص موجود في مجموعتك سيكون قادرًا على استخدام أوامر المسؤول (مثل / تخطي ، / إيقاف ، إلخ)
+4️⃣ ** Clean Mode: ** عند التمكين ، يحذف رسائل الروبوت بعد 5 دقائق من مجموعتك للتأكد من أن الدردشة الخاصة بك تظل نظيفة وجيدة.
+5️⃣ ** Command Clean **: عند التنشيط ، سيحذف Bot أوامره المنفذة (/ play ، / pause ، / shuffle ، / stop وما إلى ذلك) على الفور.
+6️⃣ ** إعدادات التشغيل: **
+/ playmode - احصل على لوحة إعدادات تشغيل كاملة بأزرار حيث يمكنك ضبط إعدادات تشغيل مجموعتك.
+<u> الخيارات في وضع التشغيل: </ u>
+1️⃣ ** وضع البحث ** [مباشر أو مضمن] - يغير وضع البحث أثناء منحك / تشغيل وضع.
+2️⃣ ** أوامر المسؤول ** [الكل أو المسؤولون] - إذا كان كل شخص موجودًا في مجموعتك فسيكون قادرًا على استخدام أوامر المسؤول (مثل / تخطي ، / إيقاف ، إلخ)
+3️⃣ ** نوع التشغيل ** [الكل أو المسؤولون] - إذا كان المشرفون ، يمكن للمسؤولين الموجودين في المجموعة فقط تشغيل الموسيقى على الدردشة الصوتية."""
 
 HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 / addudo [اسم المستخدم أو الرد على مستخدم]
