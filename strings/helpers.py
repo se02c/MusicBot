@@ -73,52 +73,52 @@ HELP_4 = """✅<u>**Extra  Commands:**</u>
 3️⃣ **Play Type** [Everyone or Admins] - If admins, only admins present in group can play music on voice chat."""
 
 HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
-/addsudo [Username or Reply to a user]
-/delsudo [Username or Reply to a user]
-🛃**<u>HEROKU:</u>**
-/usage - Dyno Usage.
-🌐**<u>CONFIG VARS:</u>**
-/get_var - Get a config var from Heroku or .env.
-/del_var - Delete any var on Heroku or .env.
-/set_var [Var Name] [Value] - Set a Var or Update a Var on heroku or .env. Seperate Var and its Value with a space.
-🤖**<u>BOT COMMANDS:</u>**
-/reboot - Reboot your Bot. 
-/update - Update Bot.
-/speedtest - Check server speeds
-/maintenance [enable / disable] 
-/logger [enable / disable] - Bot logs the searched queries in logger group.
-/get_log [Number of Lines] - Get log of your bot from heroku or vps. Works for both.
-/autoend [enable|disable] - Enable Auto stream end after 3 mins if no one is listening.
-📈**<u>STATS COMMANDS:</u>**
-/activevoice - Check active voice chats on bot.
-/activevideo - Check active video calls on bot.
-/stats - Check Bots Stats
-⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
-/blacklistchat [CHAT_ID] - Blacklist any chat from using Music Bot
-/whitelistchat [CHAT_ID] - Whitelist any blacklisted chat from using Music Bot
-/blacklistedchat - Check all blacklisted chats.
-👤**<u>BLOCKED FUNCTION:</u>**
-/block [Username or Reply to a user] - Prevents a user from using bot commands.
-/unblock [Username or Reply to a user] - Remove a user from Bot's Blocked List.
-/blockedusers - Check blocked Users Lists
-👤**<u>GBAN FUNCTION:</u>**
-/gban [Username or Reply to a user] - Gban a user from bot's served chat and stop him from using your bot.
-/ungban [Username or Reply to a user] - Remove a user from Bot's gbanned List and allow him for using your bot
-/gbannedusers - Check Gbanned Users Lists
-🎥**<u>VIDEOCALLS FUNCTION:</u>**
-/set_video_limit [Number of Chats] - Set a maximum Number of Chats allowed for Video Calls at a time. Default to 3 chats.
-/videomode [download|m3u8] - If download mode is enabled, Bot will download videos instead of playing them in M3u8 form. ByDefault to M3u8. You can use download mode when any query doesnt plays in m3u8 mode.
-⚡️**<u>PRIVATE BOT FUNCTION:</u>**
-/authorize [CHAT_ID] - Allow a chat for using your bot.
-/unauthorize [CHAT_ID] - Disallow a chat from using your bot.
-/authorized - Check all allowed chats of your bot.
-🌐**<u>BROADCAST FUNCTION:</u>**
-/broadcast [Message or Reply to a Message] - Broadcast any message to Bot's Served Chats.
-<u>options for broadcast:</u>
-**-pin** : This will pin your message 
-**-pinloud** : This will pin your message with loud notification
-**-user** : This will broadcast your message to the users who have started your bot.
-**-assistant** : This will broadcast your message from assistant account of your bot.
-**-nobot** : This will force your bot to not broadcast message
-**Example:** `/broadcast -user -assistant -pin Hello Testing`
+/ addudo [اسم المستخدم أو الرد على مستخدم]
+/ delsudo [اسم المستخدم أو الرد على مستخدم]
+🛃 ** <u> HEROKU: </u> **
+/ الاستخدام - Dyno Usage.
+🌐 ** <u> متغيرات التكوين: </ u> **
+/ get_var - احصل على var config من Heroku أو .env.
+/ del_var - احذف أي var على Heroku أو .env.
+/ set_var [Var Name] [القيمة] - قم بتعيين Var أو قم بتحديث Var على heroku أو .env. منفصلة Var وقيمتها مع مسافة.
+🤖 ** <u> أوامر البوت: </ u> **
+/ reboot - أعد تشغيل الروبوت الخاص بك.
+/ تحديث - تحديث البوت.
+/ speedtest - تحقق من سرعات الخادم
+/ صيانة [تمكين / تعطيل]
+/ المسجل [تمكين / تعطيل] - يقوم البوت بتسجيل الاستعلامات التي تم البحث عنها في مجموعة المسجل.
+/ get_log [Number of Lines] - احصل على سجل للروبوت الخاص بك من heroku أو vps. يعمل لكليهما.
+/ autoend [تمكين | تعطيل] - تمكين إنهاء البث التلقائي بعد 3 دقائق إذا لم يكن هناك من يستمع.
+📈 ** <u> أوامر STATS: </u> **
+/ activevoice - تحقق من الدردشات الصوتية النشطة على الروبوت.
+/ activevideo - تحقق من مكالمات الفيديو النشطة على الروبوت.
+/ stats - تحقق من إحصائيات الروبوتات
+⚠️ ** <u> وظيفة الدردشة في القائمة السوداء: </ u> **
+/ blacklistchat [CHAT_ID] - قم بإدراج أي دردشة في القائمة السوداء من استخدام Music Bot
+/ whitelistchat [CHAT_ID] - أضف أي دردشة بالقائمة السوداء إلى القائمة البيضاء من استخدام Music Bot
+/ blacklistedchat - تحقق من جميع الدردشات المدرجة في القائمة السوداء.
+👤 ** <u> وظيفة محظورة: </ u> **
+/ block [اسم المستخدم أو الرد على مستخدم] - يمنع المستخدم من استخدام أوامر الروبوت.
+/ إلغاء حظر [اسم المستخدم أو الرد على مستخدم] - إزالة مستخدم من قائمة بوت المحظورة.
+/ blockusers - تحقق من قوائم المستخدمين المحظورة
+👤 ** <u> وظيفة GBAN: </u> **
+/ gban [اسم المستخدم أو الرد على مستخدم] - Gban مستخدمًا من الدردشة التي يقدمها الروبوت وأوقفه عن استخدام برنامج الروبوت الخاص بك.
+/ ungban [اسم المستخدم أو الرد على مستخدم] - أزل مستخدمًا من قائمة gbanned في Bot واسمح له باستخدام برنامج الروبوت الخاص بك
+/ gbannedusers - تحقق من قوائم المستخدمين Gbanned
+🎥 ** <u> وظيفة مكالمات الفيديو: </ u> **
+/ set_video_limit [عدد الدردشات] - تعيين الحد الأقصى لعدد الدردشات المسموح بها لمكالمات الفيديو في كل مرة. افتراضي إلى 3 محادثات.
+/ videomode [تنزيل | m3u8] - إذا تم تمكين وضع التنزيل ، فسيقوم الروبوت بتنزيل مقاطع الفيديو بدلاً من تشغيلها في شكل M3u8. افتراضيا إلى M3u8. يمكنك استخدام وضع التنزيل عندما لا يتم تشغيل أي استعلام في وضع m3u8.
+⚡️ ** <u> وظيفة البوت الخاص: </ u> **
+/ يأذن [CHAT_ID] - اسمح بالمحادثة لاستخدام الروبوت الخاص بك.
+/ unauthorize [CHAT_ID] - امنع الدردشة من استخدام الروبوت الخاص بك.
+/ مخول - تحقق من جميع الدردشات المسموح بها في برنامج الروبوت الخاص بك.
+🌐 ** <u> وظيفة البث: </ u> **
+/ بث [رسالة أو رد على رسالة] - بث أي رسالة إلى الدردشات التي يقدمها برنامج الروبوت.
+خيارات <u> للبث: </ u>
+** - pin **: سيؤدي هذا إلى تثبيت رسالتك
+** - pinloud **: سيؤدي هذا إلى تثبيت رسالتك بإشعار عالٍ
+** - user **: سيؤدي هذا إلى بث رسالتك للمستخدمين الذين بدأوا برنامج الروبوت الخاص بك.
+** - المساعد **: سيؤدي هذا إلى بث رسالتك من حساب المساعد الخاص بالروبوت الخاص بك.
+** - nobot **: هذا سيجبر الروبوت الخاص بك على عدم بث الرسالة
+** مثال: ** `/ بث-مستخدم-مساعدة-اختبار مرحبًا`
 """
